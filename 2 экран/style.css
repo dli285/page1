@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'TT Hoves';
+}
+.zagolovok{
+    margin-left: calc(10.6vw - 15.7px);
+    margin-top: calc(11vw + 18.5px);
+    font-size: calc(2.7vw + 24px);
+    width: calc(48.7vw + 145px);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+}
+    
+h3{
+    text-transform: uppercase;
+    font-size: calc(1.7vw + 14.2px);
+    font-weight: 400%;
+    line-height: 140%;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    font-size: calc(1vw + 14.2px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.courseinfo1, .courseinfo2{
+    margin-left: calc(10.6vw - 15.7px);
+    float: 50%;
+    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: calc(3.3vw + 27.5px);
+}
+.courseinfo1{
+    margin-top: calc(8.3vw - 16px);
+}
+.courseinfo2{
+    margin-top: calc(0.8vw + 42px);
+}
+.info1{
+    width: 450px;
+    height: 506px;
+}
+.info2{
+    width: 450px;
+    height: 468px;
+}
+.info3{
+    width: 432px;
+    height: 468px;
+}
+.info4{
+    width: 477px;
+    height: 506px;
+}
