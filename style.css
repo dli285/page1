@@ -1,0 +1,52 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.section4 h3{
+     font-size: calc(2.7vw + 24px);
+     font-weight: 500;
+     letter-spacing: 0.58px;
+     text-transform: uppercase;
+}
+.container{
+    display: flex;
+    gap: 51px;
+}
+.right-top h2{
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700px;
+}
+.right-top p{
+    line-height: 140%;
+    font-size: 27px;
+    max-width: 560px;
+}
+.right-cards{
+    display: grid;
+    grid-template-areas: "card1 card2"
+                         "card3 card4";
+}
+.right-card:nth-child(1){
+    grid-area: card1;
+}
+.right-card:nth-child(2){
+    grid-area: card2;
+}
+.right-card:nth-child(3){ 
+    grid-area: card3;
+}
+.right-card:nth-child(4){
+    grid-area: card4;
+}
+.right-card img{
+    margin-bottom: 10px;
+}
+.right-card p{
+    margin: 0;
+    font-size: 21px;
+    line-height: 140%;
+
+}
